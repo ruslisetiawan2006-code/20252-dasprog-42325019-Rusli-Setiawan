@@ -1,24 +1,53 @@
 import { Button } from "@/components/ui/button";
+import {
+  Card,
+  CardContent,
+  CardDescription,
+  CardFooter,
+  CardHeader,
+  CardTitle,
+} from "@/components/ui/card";
+import {
+  FieldGroup,
+  Field,
+  FieldLabel,
+  FieldDescription,
+  FieldError,
+} from "@/components/ui/field";
+import { Input } from "@/components/ui/input";
+import { Separator } from "@/components/ui/separator";
 
 const Page = () => {
   return (
-    <div className="flex flex-col space-y-4">
-      <div className="p-4 text-2x1 font-bold text-blue-800 border-2 border-b-indigo-700 ">
-        Pemograman Website - Pertemuan 3
-      </div>
-      <div className="border-2 border-red-600 rounded-lg p-4">
-        <h1 className="text-xl font bold">Kalkulasi Lingkaran</h1>
-        <div className="flex flex-row gap-3 items-center pl-3">
-          <p className="mt-2 mb-2">Berapa radius lingkaran</p>
-          <input
-            className="mb-2"
-            type="number"
-            placeholder="Masukkan Radius Lingkaran"
-          />
-        </div>
-        <Button>Hitunglah LUAS dan KELILING Lingkaran</Button>
-      </div>
+    <div className="flex justify-center items-center min-h-screen">
+      <Card className="w-2/3">
+        <CardHeader>
+          <CardTitle>Kalkulasi Lingkaran</CardTitle>
+          <CardDescription>Hitung luas dan keliling lingkaran</CardDescription>
+        </CardHeader>
+        <Separator />
+        <CardContent>
+          <FieldGroup>
+            <Field>
+              <FieldLabel>Radius Lingkaran</FieldLabel>
+              <Input />
+              <FieldDescription>
+                Masukkan radius lingkaran dalam satuan cm.
+              </FieldDescription>
+              <FieldError>
+                Radius lingkaran harus berupa angka positif
+              </FieldError>
+            </Field>
+          </FieldGroup>
+        </CardContent>
+        <Separator />
+        <CardFooter className="flex gap-2">
+          <Button>Reset</Button>
+          <Button variant="outline">Hitung Luas dan Keliling</Button>
+        </CardFooter>
+      </Card>
     </div>
   );
 };
+
 export default Page;

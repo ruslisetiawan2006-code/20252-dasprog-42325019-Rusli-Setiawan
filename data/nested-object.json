@@ -1,0 +1,12 @@
+{
+  "nim": "20253",
+  "nama": "Muhammad Fadhlan",
+  "jenisKelamin": null,
+  "tanggalLahir": "2004-02-29",
+  "alamat": {
+    "jalan": "Jl. Mawar No.123",
+    "kota": "Bandung",
+    "provinsi": "Jawa Barat",
+    "kodePos": "40123"
+  }
+}

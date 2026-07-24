@@ -1,0 +1,46 @@
+[
+  {
+    "nim": "20253",
+    "nama": "Muhammad Fadhlan",
+    "jenisKelamin": null,
+    "tanggalLahir": "2004-02-29",
+    "alamat": [
+      {
+        "jalan": "Jl. Mawar No.123",
+        "kota": "Bandung",
+        "provinsi": "Jawa Barat",
+        "kodePos": "40123"
+      },
+      {
+        "jalan": "Jl. Melati No.456",
+        "kota": "Jakarta",
+        "provinsi": "DKI Jakarta",
+        "kodePos": "10110"
+      }
+    ]
+  },
+  {
+    "nim": "20253",
+    "nama": "Aulia Rahman",
+    "jenisKelamin": null,
+    "tanggalLahir": "2003-05-15",
+    "alamat": {
+      "jalan": "Jl. Melati No.456",
+      "kota": "Jakarta",
+      "provinsi": "DKI Jakarta",
+      "kodePos": "10110"
+    }
+  },
+  {
+    "nim": "20254",
+    "nama": "Siti Nurhaliza",
+    "jenisKelamin": null,
+    "tanggalLahir": "2002-11-20",
+    "alamat": {
+      "jalan": "Jl. Anggrek No.789",
+      "kota": "Surabaya",
+      "provinsi": "Jawa Timur",
+      "kodePos": "60234"
+    }
+  }
+]

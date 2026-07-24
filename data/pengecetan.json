@@ -1,0 +1,68 @@
+[
+  {
+    "id": 1,
+    "tanggal": "2023-01-01",
+    "panjang": 10,
+    "lebar": 5,
+    "tinggi": 2,
+    "caraPembayaran": "tunai",
+    "hargaCat": 100000,
+    "biayaTenagaKerja": 50000,
+    "totalBiaya": 15000
+  },
+  {
+    "id": 2,
+    "tanggal": "2023-01-02",
+    "panjang": 8,
+    "lebar": 4,
+    "tinggi": 3,
+    "caraPembayaran": "kredit",
+    "hargaCat": 80000,
+    "biayaTenagaKerja": 40000,
+    "totalBiaya": 120000
+  },
+  {
+    "id": 3,
+    "tanggal": "2023-01-03",
+    "panjang": 12,
+    "lebar": 6,
+    "tinggi": 4,
+    "caraPembayaran": "tunai",
+    "hargaCat": 120000,
+    "biayaTenagaKerja": 60000,
+    "totalBiaya": 180000
+  },
+  {
+    "id": 4,
+    "tanggal": "2023-01-04",
+    "panjang": 15,
+    "lebar": 7,
+    "tinggi": 5,
+    "caraPembayaran": "kredit",
+    "hargaCat": 150000,
+    "biayaTenagaKerja": 75000,
+    "totalBiaya": 225000
+  },
+  {
+    "id": 5,
+    "tanggal": "2023-01-05",
+    "panjang": 20,
+    "lebar": 10,
+    "tinggi": 6,
+    "caraPembayaran": "tunai",
+    "hargaCat": 200000,
+    "biayaTenagaKerja": 100000,
+    "totalBiaya": 300000
+  },
+  {
+    "id": 6,
+    "tanggal": "2023-06-01",
+    "panjang": 10,
+    "lebar": 12,
+    "tinggi": 3.5,
+    "caraPembayaran": "kredit",
+    "hargaCat": 1000000,
+    "biayaTenagaKerja": 400000,
+    "totalBiaya": 1400000
+  }
+]

@@ -1,0 +1,17 @@
+[
+  {
+    "idTerakhir": 1,
+    "data": [
+      {
+        "id": 1,
+        "tanggalPembelian": "2026-07-07T07:49:51.015Z",
+        "jumlah": 5,
+        "sistemOperasi": "Linux",
+        "hrgPerangkatLunak": 1750000,
+        "pajak": 122500,
+        "biayaPengiriman": 62500,
+        "totalHarga": 1935000
+      }
+    ]
+  }
+]
